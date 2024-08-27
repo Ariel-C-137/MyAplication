@@ -1,0 +1,28 @@
+
+
+.container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura visible */
+    text-align: center; /* Alinea el texto al centro */
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una columna */
+    justify-content: center; /* Centra verticalmente dentro del contenedor */
+    align-items: center; /* Centra horizontalmente dentro del contenedor */
+  }
+  
+  .user {
+    max-width: 80%; /* Ajusta el tamaño máximo de la imagen si es necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 100px; /* Espacio entre la imagen y el título */
+    filter: drop-shadow(3px 4px 4px #444);
+  }
+  
+  ion-title {
+    font-size: 1.5rem; /* Ajusta el tamaño del título si es necesario */
+  }
+  
