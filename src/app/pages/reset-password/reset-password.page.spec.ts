@@ -1,5 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ResetPasswordPage } from './reset-password.page';
+import { PasswordModule } from 'primeng/password';
+
 
 describe('ResetPasswordPage', () => {
   let component: ResetPasswordPage;
