@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { PasswordModule } from './primeng/password';
 
 
 @Component({
@@ -8,10 +7,12 @@ import { PasswordModule } from './primeng/password';
   styleUrls: ['./reset-password.page.scss'],
 })
 export class ResetPasswordPage implements OnInit {
-
+  value!: string;
   constructor() { }
 
   ngOnInit() {
   }
+
+
 
 }
