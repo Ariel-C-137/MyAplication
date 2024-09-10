@@ -7,15 +7,15 @@
   <form>
     <div class="ion-padding">
       <ion-item>
-        <ion-input placeholder="name" class="input"></ion-input>
+        <ion-input placeholder="name" class="input" [(ngModel)]="username" name = "username" style="color: black;"></ion-input>
         <ion-icon name="person-outline"></ion-icon>
       </ion-item>
       <ion-item>
-        <ion-input placeholder="email" class="input" ></ion-input>
+        <ion-input placeholder="email" class="input" [(ngModel)] ="email" name = "email" style="color: black;"></ion-input>
         <ion-icon name="person-outline"></ion-icon>
       </ion-item>
       <ion-item>
-        <ion-input placeholder="password" class="input" [(ngModel)]="value"></ion-input>
+        <ion-input placeholder="password" class="input" [(ngModel)]="value" name = "value" style="color: black;"></ion-input>
         <ion-icon name="lock-closed-outline"></ion-icon>
       </ion-item>
       <div class="signinLink">
@@ -23,7 +23,7 @@
     </div>
       </div>
       <ion-fab vertical="bottom" horizontal="end" style="margin-bottom: 30px ;">
-        <ion-fab-button [routerLink]="['/home']">
+        <ion-fab-button (click)="validationResult()">
           <ion-icon name="chevron-forward"></ion-icon>
         </ion-fab-button>
         </ion-fab>
