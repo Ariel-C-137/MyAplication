@@ -32,11 +32,15 @@
               }
             ],
             "styles": [
-            "src/global.scss", "src/theme/variables.scss",
-            "node_modules/primeng/resources/themes/saga-blue/theme.css",
-            "node_modules/primeng/resources/primeng.min.css",
-            "node_modules/primeicons/primeicons.css"
-          ],
+              "src/global.scss",
+              "src/theme/variables.scss",
+              "./node_modules/primeng/resources/themes/saga-blue/theme.css",
+              "./node_modules/primeng/resources/primeng.min.css",
+              "./node_modules/primeicons/primeicons.css",
+              "./node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+              "./node_modules/primeng/resources/primeng.min.css",
+              "./node_modules/primeflex/primeflex.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -129,19 +133,14 @@
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
-            "lintFilePatterns": [
-              "src/**/*.ts",
-              "src/**/*.html"
-            ]
+            "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
           }
         }
       }
     }
   },
   "cli": {
-    "schematicCollections": [
-      "@ionic/angular-toolkit"
-    ],
+    "schematicCollections": ["@ionic/angular-toolkit"],
     "analytics": "c18206d9-5752-4bc2-b272-f75c9a915628"
   },
   "schematics": {
