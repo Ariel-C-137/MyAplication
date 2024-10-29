@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "585184949551",
+    "project_id": "bakery-ff848",
+    "storage_bucket": "bakery-ff848.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585184949551:android:d011bccbb5482fff3b1dda",
+        "android_client_info": {
+          "package_name": "com.reposteria.bakery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585184949551-saf320thi5aug6b58tb102li7s5aheb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgR8_onqHlp4AjTT975hwNGMfwxP1MY7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585184949551-saf320thi5aug6b58tb102li7s5aheb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
